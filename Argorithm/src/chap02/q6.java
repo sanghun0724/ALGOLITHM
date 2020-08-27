@@ -6,9 +6,9 @@ public class q6 {
 		// TODO Auto-generated method stub
 
 	}
-static int CardConvR9(int x,int r,char[] d) {
+static void CardConvR9(int x,int r,char[] d) {
 	int digits =0;
-	int[] a;
+	
 	String dchar="0123456789ABCDEFGHIHJKLMNOPQRSTUWXYZ";
 	
 	do{
@@ -16,6 +16,7 @@ static int CardConvR9(int x,int r,char[] d) {
 		x/=r;
 	}while(x !=0);
 	/*swap*/
+	
      }
 }
 
