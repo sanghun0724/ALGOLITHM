@@ -16,20 +16,21 @@ public class PrimeNumber3 {
     	for(int i=1;prime[i]*prime[i] <= n;i++){
     		counter+=2;
     		if(n%prime[i]==0){
-    			flag =true;
+    			
     			break;
     		}
     	}
     	if(!flag){
-    		System.out.println("hi");
+    		
     		prime[ptr++] =n;
     		counter++;
     	}
+    }
     	for(int i= 0; i< ptr; i++)
     		System.out.println(prime[i]);
            
     	System.out.println("곱셈과 나눗셈을 수행한 횟수"+ counter);
-    }
+    
 	}
 
 }
