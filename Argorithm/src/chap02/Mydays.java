@@ -23,13 +23,13 @@ public class Mydays {
 	  int retry;
 	  System.out.println("그 해 결과 일수를 구합니다");
 	  
-	  do{
+	  
 		 System.out.println("년  :"); int year =sc.nextInt();
 		 System.out.println("월   :");int month =sc.nextInt();
 		 System.out.println("일   :");int day =sc.nextInt();
 		 
 		 System.out.printf("그래 %d일 째입니다 ",dayOfYear(year,month,day));
-	  }
+	  
 	}
 
 }
